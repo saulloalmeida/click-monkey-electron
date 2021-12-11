@@ -1,3 +1,35 @@
 /* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 10rem;
+    -webkit-app-region: drag;
+
+}
+.monkeys{
+    -webkit-app-region: no-drag;
+}
+.monkey{
+    font-size: 5rem;
+    cursor: pointer;
+    user-select: none;
+}
+.closed{
+    display: none;
+}
+
+.open{
+    display:none;
+}
+.active{
+    display: block;
+}
 
 /* Add styles here to customize the appearance of your app */

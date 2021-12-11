@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "click-monkey-electron",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "click-monkey-electron",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -14,8 +14,8 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Saullo Almeida",
+  "license": "",
   "devDependencies": {
     "electron": "^16.0.2"
   }
